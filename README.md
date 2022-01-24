@@ -22,9 +22,9 @@ java main
 
 | Library | Link |
 | ------ | ------ |
-| youtube-dl | [https://github.com/ytdl-org/youtube-dl][PlDb] |
-| ffmpeg | [https://github.com/FFmpeg/FFmpeg][PlDb] |
+| youtube-dl | [https://github.com/ytdl-org/youtube-dl] |
+| ffmpeg | [https://github.com/FFmpeg/FFmpeg] |
 
 ## Development
 
-🪟At this state, the program was only tested in windows 🪟
+🪟At this state, the program was only tested on windows 🪟
