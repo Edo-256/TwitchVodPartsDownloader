@@ -1,12 +1,12 @@
 # TwitchVodPartsDownloader
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-TwitchVodPartsDownloader is a very simple program that Allows you to download just a part of a VOD between start time and end time without need to download the entire VOD
+TwitchVodPartsDownloader is a very simple program that allows you to download just a part of a VOD between start time and end time without need to download the entire VOD
 
 ## ⚠️WARNING⚠️
 For this program to work properly, you need to:
 - Have installed youtube-dl and ffmpeg
-- Add directory that contain youtube-dl and ffmpeg to environment variables
+- Add directories that contain youtube-dl and ffmpeg to environment variables
 
 ## Usage
 Compile
