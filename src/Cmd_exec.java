@@ -1,10 +1,5 @@
 package src;
-
-import java.util.*;
 import java.io.*;
-import java.nio.file.*;
-import java.util.stream.*;
-
 
 public class Cmd_exec
 {
@@ -26,9 +21,5 @@ public class Cmd_exec
 		{
 	        e.printStackTrace();
 	    }
-	}
-
-	public static void main(String[] args) throws IOException, InterruptedException
-	{
 	}
 }
