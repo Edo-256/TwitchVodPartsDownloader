@@ -6,22 +6,18 @@ import src_prop.Twitch_downloader;
 public class Launcher{
     public static void main(String args[]) throws IOException, InterruptedException
     {
-      //java main url format hs:ms he:me
-      if(args[0] != null && args[1] != null && args[2] != null && args[3] != null){
+      //java Launcher url format hs:ms he:me
+      if(args.length != 0){
 
         //detect staring time of clip
         int pos1time = args[2].indexOf(':');
         int hs = Integer.parseInt(args[2].substring(0, pos1time));
         int ms = Integer.parseInt(args[2].substring(pos1time+1));
-        System.out.println(hs);
-        System.out.println(ms);
 
         //detect end time of clip
         int pos2time = args[3].indexOf(':');
         int he = Integer.parseInt(args[3].substring(0, pos2time));
         int me = Integer.parseInt(args[3].substring(pos2time+1));
-        System.out.println(he);
-        System.out.println(me);
 
         Twitch_downloader.launch_download(args[0], args[1], hs, ms, he, me);
         
